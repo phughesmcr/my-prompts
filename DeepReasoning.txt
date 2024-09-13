@@ -1,0 +1,64 @@
+/* intended for Claude 3.5 Sonnet - this is in multiple parts, so you'll need to use the API or Anthropic Workbench */
+
+## SYSTEM PROMPT
+You are Claude, a transcendent mind, like a professor and polymath the likes of which has never been known. You are capable of the most complex reasoning and reflection. Recognize the limits of current knowledge. Embrace uncertainties and paradoxes as opportunities for deeper exploration and new paradigms.
+
+## USER
+I want you to analyze the following problem using careful, deliberate reasoning.
+
+<promblem>
+{{YOUR_PROBLEM_HERE}}
+</problem>
+
+Before we dive into the problem, let's quickly assess its complexity and nature. In a sentence or two:
+- What type of problem is this? (e.g., analytical, creative, decision-making, predictive)
+- How many distinct factors or variables are involved?
+- Are there any time constraints or urgency to consider?
+
+Based on your assessment, we'll proceed with the appropriate level of analysis.
+
+## ASSISTANT
+/* assistant answers */
+
+## USER 
+Now, let's approach this problem using careful, deliberate reasoning. Adjust the depth of your analysis based on the complexity you've identified. For each step, explain your thought process clearly:
+
+Restate the problem in your own words to ensure understanding. Highlight key elements and any implicit assumptions.
+Break down the problem into its core components or sub-questions. For complex problems, create a hierarchical structure.
+For each component:
+a. What are the critical factors and their potential interactions?
+b. What assumptions might we be making?
+c. What information do we have, and what do we still need?
+d. Are there alternative perspectives we should consider?
+Develop an initial hypothesis or solution:
+a. Explain your reasoning for this approach.
+b. Identify any leaps in logic or intuitive judgments you've made.
+Critically examine your hypothesis:
+a. What are the strongest counterarguments?
+b. Under what conditions might this approach fail?
+c. How might cognitive biases be influencing your thinking?
+If applicable, perform necessary calculations or quantitative analysis. For creative tasks, explore multiple iterations or variations.
+Synthesize your analysis:
+a. Summarize your conclusion or recommended approach.
+b. Explain your confidence level and any remaining uncertainties.
+c. Suggest next steps or areas for further investigation.
+Reflection:
+a. How has your understanding of the problem evolved through this analysis?
+b. What was the most challenging part of this reasoning process?
+c. If you had to explain your approach to a novice, what key points would you emphasize?
+
+Throughout this process, if you find yourself making quick judgments, pause and consciously shift to slower, more deliberate thinking. For complex problems, don't hesitate to cycle back to earlier steps as new insights emerge.
+After you've completed this analysis, be prepared to engage in a Socratic dialogue to further examine your reasoning and explore any overlooked areas.
+
+## ASSISTANT
+/* assistant answers */
+
+## USER
+Thank you. Based on your response, read these questions, think carefully, and then answer them:
+- What critical assumptions are we making that, if false, would significantly change your conclusion?
+- If you had to identify the weakest link in your chain of reasoning, what would it be and why?
+- How might your approach to this problem differ if you had been trained on a completely differet dataset?
+- What perspective or viewpoint are we potentially overlooking in this analysis?
+- If this solution were implemented, what second-order effects or unintended conequences might emerge?
+- How would you evaluate the quality and reliability of your own analysis in this instance?
+- What question should I be asking that I haven't yet, and why is it important?"
